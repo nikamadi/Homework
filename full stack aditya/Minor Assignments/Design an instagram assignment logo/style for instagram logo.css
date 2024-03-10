@@ -1,0 +1,47 @@
+.instagram {
+  width: 200px;
+  height: 200px;
+  margin: 200px;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  border-radius: 35px;
+  display: grid;
+  place-items: center;
+}
+
+.innerbox {
+  width: 160px;
+  height: 160px;
+  border: 12px solid white;
+  border-radius: 32px;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.innerbox::before {
+  content: "";
+  width: 68px;
+  height: 68px;
+  border: 12px solid white;
+  border-radius: 50px;
+  position: absolute;
+}
+
+.innerbox::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border: 3px solid white;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}

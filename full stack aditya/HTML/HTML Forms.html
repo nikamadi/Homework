@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <style>
+      .mydiv {
+        border: 5px;
+        background-color: bisque;
+      }
+      .my {
+        border: 5px;
+        background-color: lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>User Registration Form</h2>
+    <hr />
+    <br /><br />
+    <form>
+      Enter User Name:
+      <input type="text" />
+      <br /><br />
+      Enter Email ID:
+      <input type="email" />
+      <br /><br />
+      Enter Phone No:
+      <input type="text" />
+      <br /><br />
+      Select Gender:
+      <input type="radio" name="g" />Male <input type="radio" name="g" />Female
+      <input type="radio" name="g" />Other <br /><br />
+      <div class="mydiv">
+        Qualification:<br />
+        <input type="checkbox" />SSC <input type="checkbox" />HSC
+        <input type="checkbox" />Graduate <input type="checkbox" />Post Graduate
+        <br /><br />
+        Select your Location:
+        <select name="city">
+          <option value="delhi">Delhi</option>
+          <option value="pune">Pune</option>
+          <option value="mumbai">Mumbai</option>
+          <option value="jammu">Jammu</option>
+        </select>
+      </div>
+      <br /><br /><br />
+      <div class="my">
+        Select Date of Birth:
+        <input type="date" max="2023-01-01" />
+      </div>
+      <br /><br />
+      Application ID:
+      <input type="type" />
+      <br /><br />
+      Password:
+      <input type="password" />
+      <br /><br /><br />
+      <input type="submit" value="Click here to Submit" />
+    </form>
+  </body>
+</html>

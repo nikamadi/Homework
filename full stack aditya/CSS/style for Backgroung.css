@@ -1,0 +1,22 @@
+/* CSS Background-size and Background-attachment */
+body {
+  background-image: url("https://img.freepik.com/free-photo/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background_181624-29267.jpg");
+  background-size: cover; /*to cover whole screen with image*/
+  background-repeat: no-repeat; /*do not repeat image*/
+  background-attachment: fixed; /*to fix the background while scrolling the content*/
+}
+
+/*background-color*/
+h1 {
+  background-color: rgba(91, 194, 253, 0.623);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: brown;
+}
+
+/* CSS Background-image */
+/* .container { */
+/* background-color: aquamarine; */
+/* width: 600px; */
+/* height: 500px; */
+/* background-image: url("https://img.freepik.com/free-photo/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background_181624-29267.jpg"); */
+/* } */

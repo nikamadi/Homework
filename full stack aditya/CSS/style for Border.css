@@ -1,0 +1,51 @@
+/* Border style  */
+/* p { */
+/* border-style: dotted; */
+/* border-top-style: solid; */
+/* border-right-style: dashed; */
+/* border-left-style: groove; */
+/* } */
+
+/* Border width */
+/* p { */
+/* border-style: groove; */
+/* border-width: 10px; */
+/* } */
+
+/* Border color */
+/* p { */
+/* border-style: groove; */
+/* border-width: 4px; */
+/* border-color: rgb(250, 152, 152); */
+/* } */
+
+/* Border radius */
+/* p { */
+/* border-style: solid; */
+/* border-radius: 15px; */
+/* } */
+
+/* shorthand method for style */
+p {
+  border-style: dotted dashed solid groove;
+}
+
+/* shorthand method for width */
+p {
+  border-width: 10px 20px 2px 5px;
+}
+
+/* shorthand method for color */
+p {
+  border-color: red blue orange green;
+}
+
+/* shorthand method for radius */
+p {
+  border-radius: 2px 3px 5px 10px;
+}
+
+/* shorthand for all */
+p {
+  border: dotted 10px red;
+}

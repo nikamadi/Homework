@@ -1,0 +1,34 @@
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+  margin: 40px;
+}
+
+.item {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  /* transition: transform 2s ease-in-out; */
+}
+
+/* .container:hover > .item { */
+/* background-color: rgb(247, 243, 2); */
+/* transition: 3s; */
+/* transform: translateX(500px); */
+/* transform: translateY(400px); */
+/* } */
+
+.container:hover > .item {
+  animation: round 2s ease-in 4;
+  animation-direction: alternate;
+}
+@keyframes round {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(400px);
+  }
+}

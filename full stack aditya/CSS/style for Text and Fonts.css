@@ -1,0 +1,20 @@
+h1 {
+  font-size: 50px;
+  color: red; /*Text color*/
+  direction: rtl; /*Text direction*/
+  letter-spacing: 10px; /*letter spacing*/
+  word-spacing: 30px; /*word spacing*/
+  text-decoration: underline; /*text decoration*/
+  text-transform: uppercase; /*Text Cases transform*/
+  text-shadow: 3px 1px 3px rgb(27, 68, 10); /*Text shadow*/
+}
+p {
+  text-indent: 50px; /*text indent*/
+  text-align: justify; /*text alignment*/
+  font-style: italic; /*font style*/
+  font-family: cursive; /*font family*/
+  font-variant: small-caps; /*font varient*/
+  font-size: medium; /*font size*/
+  /* font shorthand */
+  font: italic small-caps bold black cursive;
+}

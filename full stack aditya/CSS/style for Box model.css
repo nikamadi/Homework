@@ -1,0 +1,47 @@
+.border {
+  /*border model*/
+  border-style: solid;
+  border-width: 4px;
+  border-color: blueviolet;
+  border-radius: 20px;
+  /*padding model*/
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  /*shorthand*/
+  padding: 10px 5px 30px 40px;
+  /*margin model*/
+  margin-top: 20px;
+  margin-bottom: 100px;
+  margin-right: 70px;
+  margin-left: 20px;
+  /*shorthand*/
+  /* margin: 20px 30px 70px 20px; */
+  background-color: aqua;
+  /* maximum width and height */
+  max-width: 140px;
+  max-height: 100px;
+}
+
+.margin {
+  /*border model*/
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(160, 77, 8);
+  border-radius: 20px;
+  /*padding model*/
+  padding-top: 200px;
+  padding-right: 5px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  /*shorthand*/
+  padding: 10px 5px 30px 40px;
+  /*margin model*/
+  margin-top: 20px;
+  margin-right: 20px;
+
+  margin-left: 20px;
+  /*shorthand*/
+  /* margin: 20px 30px 70px 20px; */
+}

@@ -1,0 +1,24 @@
+.grid-item {
+  padding: 20px 15px;
+  background-color: cyan;
+  border: 1px solid black;
+  margin: 10px;
+}
+.container {
+  background-color: rgb(17, 0, 255);
+  height: 500px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  /* grid-template-rows: 200px 400px 200px; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between;  */
+  /* justify-content: center; */
+  /* justify-content: end; */
+  /* align-content: start; */
+}
+.grid-item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row: 1/4;
+}

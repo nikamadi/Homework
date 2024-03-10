@@ -1,0 +1,25 @@
+:root {
+  margin: 0px;
+  background-color: black;
+  color: white;
+}
+
+/* Descendant combinator selector */
+/* .container p { */
+/* color: red; */
+/* } */
+
+/* child combinator selector */
+/* .container > p { */
+/* color: red; */
+/* } */
+
+/* Adjacent Sibling Selector */
+.container + p {
+  color: red;
+}
+
+/* General Sibling Selector */
+/* .container ~ p { */
+/* color: red; */
+/* } */

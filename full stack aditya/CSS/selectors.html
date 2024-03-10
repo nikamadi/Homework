@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+      /* * {
+        border: 2px solid red;  universal Selector
+      }*/
+      .color {
+        /*Class selector*/
+        color: aqua;
+      }
+      #header-font {
+        /* id selector*/
+        font-family: cursive;
+      }
+
+      img[src*="ho"] {
+        /* Attribute Selector*/
+        width: 50px;
+        height: 50px;
+      }
+      a:hover {
+        /*pseudo class*/
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Universal Selector Ex. <p>aditya</p> -->
+    <!-- Class Selector Ex.<p class="color">Aditya</p> -->
+    <!-- id selector <h1 id="header-font">Aditya</h1> -->
+    <!-- class selector<p class="color">My paragraph</p> -->
+    <!--attribute selector <img src="horse photo.jpg" alt="photo horse" />   -->
+    <!--attribute selector <img src="photo -page-001.jpg" alt="photo adi" /> -->
+    <a href="https://www.testbook.com">testbook</a>
+  </body>
+</html>
