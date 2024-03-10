@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(219, 216, 216);
+  padding: 0px;
+  margin: 0px;
+}
+
+.main {
+  width: 1000px;
+  height: 130vh;
+  background-color: white;
+  box-shadow: 2px 3px 5px grey;
+}
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.nav {
+  color: white;
+  margin: 0px 40px;
+  font-size: larger;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-shadow: 2px 3px 3px greenyellow;
+  letter-spacing: 2px;
+}
+td {
+  padding: 0px 90px;
+}
+h2 {
+  color: orangered;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+.foods {
+  background-color: rgb(231, 229, 229);
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.items1 {
+  border: 1px solod rgb(36, 35, 35);
+  box-shadow: 2px 2px 3px grey;
+  margin: 3px;
+  background-color: white;
+}

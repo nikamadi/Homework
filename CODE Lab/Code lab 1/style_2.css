@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-floral-wallpaper_52683-67104.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.adds {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  margin: 20px;
+  box-shadow: 2px 3px 4px darkgrey;
+}
+img {
+  width: 150px;
+  height: 150px;
+  padding-top: 40px;
+}
+h1 {
+  margin-top: 10px;
+}
+p {
+  margin-top: 10px;
+}
+h3 {
+  background-color: grey;
+  color: aliceblue;
+  margin: 10px 0px;
+  width: 100px;
+  border: 4px groove rgb(221, 228, 224);
+  box-shadow: 3px 3px 5px rgb(236, 34, 209);
+}

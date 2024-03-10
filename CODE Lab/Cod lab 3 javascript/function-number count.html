@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function countdigits(num) {
+        let numstr = num.toString();
+        console.log(typeof numstr);
+        let count = 0;
+        for (let i = 0; i < numstr.length; i++) count++;
+        return count;
+      }
+      let inputnumber = 123456;
+      let digitcount = countdigits(inputnumber);
+      console.log(digitcount);
+    </script>
+  </body>
+</html>

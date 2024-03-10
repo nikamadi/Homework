@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      #grid {
+        height: 100vh;
+        background-color: crimson;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        transition: 3s;
+      }
+      :where(.left, .center, .right) {
+        background-color: navajowhite;
+        transition: 3s;
+      }
+      :where(.left, .center, .right):hover {
+        background-color: crimson;
+      }
+      /* #grid .left:hover{
+            background-color: blue;
+            grid-template-columns: 2fr 0.5gr 0.5 fr;
+
+        } */
+      #grid:has(.left:hover) {
+        grid-template-columns: 2fr 0.5fr 0.5fr;
+      }
+      #grid:has(.center:hover) {
+        grid-template-columns: 0.5fr 2fr 0.5fr;
+      }
+      #grid:has(.right:hover) {
+        grid-template-columns: 0.5fr 0.5fr 2fr;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="grid">
+      <div class="left"></div>
+      <div class="center"></div>
+      <div class="right"></div>
+    </div>
+
+    <div class="main">
+      <div class="left"></div>
+    </div>
+  </body>
+</html>
